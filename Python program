@@ -1,0 +1,4 @@
+b = int(input('What is Bitcoin price today? '))
+d = int(input('How much $ do you have? '))
+r = d/b
+print('You can buy ', ('{0:.7f}'.format(r)), "BTC ")
